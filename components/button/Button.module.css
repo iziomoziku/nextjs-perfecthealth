@@ -1,0 +1,12 @@
+.btn {
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
+  border: none;
+  padding: 0.25em;
+  background-color: #0998ab;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #76c5cf;
+}

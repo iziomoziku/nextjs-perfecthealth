@@ -1,0 +1,8 @@
+.wrapper {
+  background: rgba(31, 30, 30, 0.822) url(../public/Images/Mani_background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: white;
+  text-align: center;
+}

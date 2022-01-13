@@ -1,0 +1,44 @@
+/*   ======================== */
+/*   login page             */
+/*   ========================   */
+
+.body {
+  background-color: #a2acaf;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 800px;
+  background-color: #dfdfdf;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.title {
+  text-align: center;
+}
+
+.link {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.pwd,
+.email {
+  border: none;
+  padding: 1em 1em;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+.mylogin {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

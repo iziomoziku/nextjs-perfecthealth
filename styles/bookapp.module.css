@@ -1,0 +1,79 @@
+.wrapper {
+  background-color: #a2acaf;
+}
+
+.fee-form-container {
+  background-color: #dfdfdf;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  max-width: 650px;
+  width: 100%;
+  margin: 1em auto;
+  border-radius: 5px;
+  padding: 1em 0;
+  padding-top: 0.5em;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: #dfdfdf;
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  /* margin-bottom: 2em; */
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 1.5em;
+}
+
+.form_checkbox {
+  margin-left: 15px;
+}
+
+/* .form_modifier {
+  border: 1px solid black;
+} */
+
+.fee_service {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.fee_form {
+  width: 95%;
+  max-width: 700px;
+  margin: 0 0 1em 0;
+}
+
+.fee_price_wrapper {
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.fee_service {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_input {
+  background-color: #808080;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25em;
+}
+
+.customers-info-bolded {
+  font-weight: 600;
+}

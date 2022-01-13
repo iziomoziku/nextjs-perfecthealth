@@ -1,0 +1,17 @@
+.logo {
+  width: 15%;
+  max-width: 400px;
+
+  /* width: clamp(10px, 15%, 400px); */
+}
+
+.headerLogo {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  width: 80%;
+}
+
+.companyName {
+  font-size: clamp(1.5rem, 2vw, 6rem);
+}

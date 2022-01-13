@@ -1,0 +1,137 @@
+.nav {
+  display: none;
+}
+
+/* .nav {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 3em;
+  align-items: center;
+  justify-content: flex-end;
+} */
+
+.nav_link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.header-hamburger {
+  width: 9%;
+  max-width: 50px;
+}
+
+/* ------------------------- */
+/* Services Drop down menu   */
+/* ------------------------- */
+
+.dropbtn {
+  background-color: inherit;
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 110px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownContent a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+/* ------------------------- */
+/* Hamburger   */
+/* ------------------------- */
+
+.header_nav_wrapper_close {
+  background-color: rgb(178, 205, 125);
+  max-width: 250px;
+  width: 60%;
+  padding: 1em 0.5em;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* right: -66%; */
+  display: none;
+}
+
+.header_nav_wrapper_open {
+  background-color: rgb(178, 205, 125);
+  max-width: 250px;
+  width: 60%;
+  padding: 1em 0.5em;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* right: -66%; */
+  display: flex;
+}
+
+.header_close {
+  margin: 0;
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+.header_nav {
+  display: flex;
+  padding: 1em 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+@media (min-width: 970px) {
+  .nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 3em;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .header_nav_wrapper_close {
+    /*  */
+    display: none;
+  }
+
+  .header_nav_wrapper_open {
+    display: none;
+  }
+}

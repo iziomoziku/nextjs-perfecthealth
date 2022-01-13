@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --page-bg-color: #f1f1f1;
+  --primary-color: #0998ab;
+  --font-color: #000000;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1rem, 1.5vw, 7rem);
+  line-height: 1.2;
+  color: black;
+  background-color: var(--page-bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 1em 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title_h1 {
+  font-size: clamp(2rem, 3.5vw, 7rem);
+  text-align: center;
+}
+
+.title_h2 {
+  font-weight: 600;
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 5rem);
+}
+
+.title_h3 {
+  font-size: clamp(1.2rem, 1.5vw, 3rem);
+  font-weight: 600;
+}
+
+.section_wrapper {
+  margin: 3.5em 0;
+}
+
+.x {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.secondaryBackgroud {
+  background-color: rgba(209, 209, 209, 0.192);
+  padding: 2em 0;
+}
+
+.banner {
+  max-width: 2500px;
+  width: 90%;
+  margin: 3.5em auto;
+  background: rgba(162, 160, 160, 0.822) url(/Images/Body_massage.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  width: 100%;
+  min-height: 300px;
+}
+
+.mani_banner {
+  max-width: 2500px;
+  width: 90%;
+  margin: 3.5em auto;
+  background: rgba(162, 160, 160, 0.822) url(/Images/nail_banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  width: 100%;
+  min-height: 300px;
+}
+
+.header_nav_wrapper_close {
+  background-color: rgb(178, 205, 125);
+  max-width: 250px;
+  width: 60%;
+  padding: 1em 0.5em;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+.header_nav_wrapper_open {
+  background-color: rgb(178, 205, 125);
+  max-width: 250px;
+  width: 60%;
+  padding: 1em 0.5em;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+}
+
+@media (min-width: 1024) {
+  .mani_banner {
+    min-height: 650px;
+  }
+}

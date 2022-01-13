@@ -1,0 +1,62 @@
+/*   ------------------------- */
+/*      about referral section   */
+/*   -------------------------   */
+
+.wrapper {
+  background: rgb(48, 48, 48) url(../../public/Images/CTA_massage.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: rgb(255, 255, 255);
+  padding: 0.5em 1em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.toggle_wrapper {
+  display: flex;
+  gap: 0.25em;
+  justify-content: center;
+  align-items: center;
+  margin: 1em auto;
+  width: fit-content;
+  /* border: 1px solid black; */
+}
+
+.toggleOff {
+  background-color: #8dc442;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.toggleOn {
+  background-color: #000000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.toggle {
+  cursor: pointer;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-size: clamp(1rem, 1vw, 7rem);
+}
+
+.content {
+  font-size: clamp(1rem, 1.5vw, 7rem);
+}
+
+.image {
+  width: 30px;
+  min-height: 30px;
+  background-color: sandybrown;
+  border-radius: 50%;
+}
