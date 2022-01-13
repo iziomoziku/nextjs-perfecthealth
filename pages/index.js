@@ -1,4 +1,4 @@
-import Hero from "../components/header/hero/hero";
+import Hero from "../components/header/hero/Hero";
 import indexStyles from "../styles/index.module.css";
 import Image from "next/image";
 import Button from "../components/button/Button";
@@ -6,7 +6,7 @@ import Link from "next/link";
 import Review from "../components/review/Review";
 import Head from "next/head";
 
-const index = () => {
+const Index = () => {
   const title = "Your beauty is our top priority";
   const content =
     "Enjoy our massage, facial, manicure and pedicure services in a relaxing environment";
@@ -133,4 +133,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

@@ -5,12 +5,12 @@ import Image from "next/image";
 import Button from "../components/button/Button";
 import Link from "next/link";
 import Review from "../components/review/Review";
-import Hero from "../components/header/hero/hero";
+import Hero from "../components/header/hero/Hero";
 import Styling from "../components/styling/Styling";
 import { useState } from "react";
 import Head from "next/head";
 
-const about = () => {
+const About = () => {
   const starter =
     "Jordyn graduated from Marvel Beauty School with a aesthetics\
   and makeup artistry diploma and completed her certification in\
@@ -260,4 +260,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

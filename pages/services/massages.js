@@ -1,4 +1,4 @@
-import Hero from "../../components/header/hero/hero";
+import Hero from "../../components/header/hero/Hero";
 import massageStyles from "../../styles/massage.module.css";
 import indexStyles from "../../styles/index.module.css";
 import aboutStyles from "../../styles/about.module.css";
@@ -8,7 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 
-const massages = () => {
+const Massages = () => {
   const title = "Massage";
   const content =
     "Please enjoy our selection of massage options. From deep tissue massages to Swedish and hot massages. We have what you need.";
@@ -135,4 +135,4 @@ const massages = () => {
   );
 };
 
-export default massages;
+export default Massages;

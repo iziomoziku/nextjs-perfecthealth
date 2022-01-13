@@ -1,4 +1,4 @@
-import Hero from "../../components/header/hero/hero";
+import Hero from "../../components/header/hero/Hero";
 import massageStyles from "../../styles/massage.module.css";
 import Link from "next/link";
 import Styles from "../../styles/mani.module.css";
@@ -8,7 +8,7 @@ import Button from "../../components/button/Button";
 import Image from "next/image";
 import Head from "next/head";
 
-const maniPedi = () => {
+const ManiPedi = () => {
   const title = "Manicure & Pedicure";
   const content =
     "Please enjoy our selection of pedicure options. From french manicures to polish pedicure application. We have what you need.";
@@ -131,4 +131,4 @@ const maniPedi = () => {
   );
 };
 
-export default maniPedi;
+export default ManiPedi;

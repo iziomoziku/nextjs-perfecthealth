@@ -8,7 +8,11 @@ const DynamicHeader = () => {
   const [width, setWidth] = useState(window.innerWidth);
   const breakpoint = 970;
   const hamburger = (
-    <img src={hamburgerMenu} alt="" class={sectionStyles.header_hamburger} />
+    <img
+      src={hamburgerMenu}
+      alt=""
+      className={sectionStyles.header_hamburger}
+    />
   );
 
   React.useEffect(() => {
@@ -20,7 +24,11 @@ const DynamicHeader = () => {
   }, []);
 
   return width < breakpoint ? (
-    <img src={hamburgerMenu} alt="" class={sectionStyles.header_hamburger} />
+    <img
+      src={hamburgerMenu}
+      alt=""
+      className={sectionStyles.header_hamburger}
+    />
   ) : (
     <Section />
   );
