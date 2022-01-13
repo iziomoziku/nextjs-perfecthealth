@@ -1,4 +1,4 @@
-import Hero from "../components/header/hero/Hero";
+import Hero from "../components/header/hero/hero";
 import indexStyles from "../styles/index.module.css";
 import Image from "next/image";
 import Button from "../components/button/Button";

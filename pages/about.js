@@ -5,7 +5,7 @@ import Image from "next/image";
 import Button from "../components/button/Button";
 import Link from "next/link";
 import Review from "../components/review/Review";
-import Hero from "../components/header/hero/Hero";
+import Hero from "../components/header/hero/hero";
 import Styling from "../components/styling/Styling";
 import { useState } from "react";
 import Head from "next/head";

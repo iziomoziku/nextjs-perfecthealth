@@ -1,4 +1,4 @@
-import Hero from "../../components/header/hero/Hero";
+import Hero from "../../components/header/hero/hero";
 import massageStyles from "../../styles/massage.module.css";
 import Link from "next/link";
 import Styles from "../../styles/mani.module.css";
