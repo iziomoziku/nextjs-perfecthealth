@@ -48,22 +48,12 @@ const About = () => {
     "Enjoy our massage, facial, manicure and pedicure services in a relaxing environment";
 
   const description =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida\
-    mattis ullamcorper neque sapien ultrices vulputate tincidunt quam.\
-    Lacus nunc dignissim urna, non arcu. Egestas commodo, at placerat\
-    nisl hendrerit arcu feugiat. Lacus nunc dignissim urna, non arcu.\
-    Egestas commodo, at placerat nisl hendrerit arcu feugiat.";
-
+    "We have your massage and beauty needs under one place. From a variety of massages to an assortment of manicure and pedicure services. We aim to provide the full spa experience for our customers.";
   const image = "/Images/beauty_package.jpg";
   const about_title = "What we do";
 
   const description2 =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida\
-  mattis ullamcorper neque sapien ultrices vulputate tincidunt quam.\
-  Lacus nunc dignissim urna, non arcu. Egestas commodo, at placerat\
-  nisl hendrerit arcu feugiat. Lacus nunc dignissim urna, non arcu.\
-  Egestas commodo, at placerat nisl hendrerit arcu feugiat.";
-
+    "We aim to put our customers' needs and priorities first and foremost. That is why we offer all types of massage specialists to ensure you are comfortable at all times. Take advantage of one of the many massage treatments we have to offer including: Deep Tissue, Swedish, and Hot massage. We will melt your tensions away and leave you feeling relaxed and rejuvenated.";
   const image2 = "/Images/face_mask.jpg";
   const about_title2 = "Our Journey";
 
